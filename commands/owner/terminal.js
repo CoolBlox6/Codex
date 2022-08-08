@@ -11,7 +11,7 @@ module.exports = {
    * @param {String[]} args
    */
   run: async (client, message, args) => {
-    if (message.author.id !== "742335160598659094") return;
+    if (message.author.id !== "536944480469909569") return;
 
     const command = args.join(" ");
     const embed = new MessageEmbed()

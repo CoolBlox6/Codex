@@ -9,7 +9,7 @@ client.on("ready", async () => {
   if (!supportServer) return console.log("");
   // ———————————————[Status]———————————————
   client.user.setActivity(
-    `${prefix} help || ${client.guilds.cache.size} ${
+    `${prefix}help | ${client.guilds.cache.size} ${
       client.guilds.cache.size > 1 ? "Servers" : "Server"
     }`,
     { type: "WATCHING" }

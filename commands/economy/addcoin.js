@@ -5,7 +5,7 @@ module.exports = {
     aliases: ['addcoin', "addcoins", " addc"],
   timeleft: 100,
    run: async (client,message, args)=>{
-        const allowed = ['742335160598659094']
+        const allowed = ['743317832434974811']
 
         if(!allowed.includes(message.author.id)) return
 

@@ -7,16 +7,16 @@ client.on('guildCreate', guild => {
  let embed = new MessageEmbed()
  .setColor('BLACK')
  .setTitle('Connected To New Server')
- .setURL('https://dsc.gg/moonlight05')
- .setDescription(`<:cookie:921311220814979084> Thank You For Inviting Me. My prefix is \`${config.prefix}\`
+ .setURL('https://discord.gg/xDAhAPSvMX')
+ .setDescription(`<a:fun:946472134832697394> Thank You For Inviting Me. My prefix is \`${config.prefix}\`
 Run ${config.prefix} help for more info about me!`)
  
  .addFields(
- { name: 'Creator', value: '<@742335160598659094>' }
+ { name: 'Creator', value: '<@743317832434974811>' }
  )
 
- .setImage('https://media.discordapp.net/attachments/910500369082224680/922456006179573790/reQYfwzIc9opL3ph.gif')
+ .setImage('https://share.creavite.co/SWi90B2Q0M7AuCHA.gif')
  .setTimestamp()
- .setFooter('MoonLight', 'https://dsc.gg/moonlight05');
+ .setFooter('DoggyBlox', 'https://discord.gg/xDAhAPSvMX');
 channel.send({embeds : [embed]});
 }) 

@@ -39,7 +39,7 @@ module.exports = {
             
             data.delete();
             const lol = new MessageEmbed()
-            .setDescription("**Successfully Removed Premium**")
+            .setDescription("<:yes:946471898194251937> **Successfully Removed Premium**")
             .setColor(`#303037`)
             message.reply({embeds: [lol]})
         })

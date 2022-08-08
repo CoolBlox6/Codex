@@ -68,7 +68,7 @@ module.exports = {
             const guildname = client.guilds.cache.get(guildop)
 
             const lol = new MessageEmbed()
-                .setDescription(`<:ah_success:885351301884559370> Successfully Added **${guildname.name}** In Premium List`)
+                .setDescription(`<:yes:946471898194251937> Successfully Added **${guildname.name}** In Premium List`)
                 .setColor(`#303037`)
             message.reply({ embeds: [lol] })
         })

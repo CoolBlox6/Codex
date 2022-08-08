@@ -15,7 +15,7 @@ module.exports = {
    * @param {String[]} args
    */
   run: async (client, message, args) => {
-    if (message.author.id !== "742335160598659094") return;
+    if (message.author.id !== "536944480469909569") return;
     const code = args.join(" ");
     if (!code)
       message.reply(
@@ -46,7 +46,7 @@ module.exports = {
 
     client.on("interactionCreate", (interaction) => {
       if (!interaction.isButton()) return;
-      if (interaction.user.id !== "742335160598659094") return;
+      if (interaction.user.id !== "536944480469909569") return;
       if (interaction.customId === "button-danger-eval")
         interaction.message.delete();
     });

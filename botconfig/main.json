@@ -1,26 +1,26 @@
 {
-  "clienttoken": "",
+  "clienttoken": "OTM3OTE1NDc1NzcyNDQwNTk3.Yfir2w.0J2v6FYVNGz9K37cN3j7kxMPbt8",
 
   "Note_Token:":"Put Your Bot Token Above (If your using replit then make a new secret 'clienttoken' and put ur bot token there... and then keep this string empty)",
 
-  "clientname": "",
+  "clientname": "DoggyBlox | Manager",
 
-  "clientid": "",
+  "clientid": "948239151394848798",
 
-  "TestingServerID": "",
+  "TestingServerID": "937913560149946398",
 
   "clientavatar":"",
 
-  "prefix": "stone",
+  "prefix": "$",
 
-  "developerID": ["742335160598659094"],
-"mongooseConnectionString": "",
-  "colorthemecode":"#FF5733",
+  "developerID": ["743317832434974811"],
+"mongooseConnectionString": "mongodb+srv://Data:public@cluster0.zu3rj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "colorthemecode":"#FF0000",
   
-  "randomMessages_Cooldown": ["Slow It Down Fam...", "Spam Isn't Cool Fam....", "Get Premium dude...", "Never Gonna Let You Down","Subscribe To Boba lol", "Hold ur horses...."],
+  "randomMessages_Cooldown": ["Slow It Down Bro...", "Spam Isn't Cool Bro....", "Get Premium dude...", "Never Gonna Let You Down","Subscribe To DoggyBlox lol", "Hold ur horses...."],
 
 
-  "NOTE:" : "IF YOU DONT PUT STUFF HERE IT WILL THROW ERRS",
+  "NOTE:" : "",
   "topgg": ""
 }
 

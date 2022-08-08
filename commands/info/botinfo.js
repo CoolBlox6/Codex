@@ -24,19 +24,19 @@ module.exports = {
       
       .setStyle("LINK") 
 .setEmoji("909758706290417714")
-      .setURL("https://dsc.gg/moonlight05"),
+      .setURL("https://discord.com/api/oauth2/authorize?client_id=936541276529111040&permissions=8&scope=bot%20applications.commands"),
       new MessageButton()
       .setLabel("Support Server")
       
       .setStyle("LINK") 
 .setEmoji("911535908518527018")
-      .setURL("https://dsc.gg/lunarteam"),
-      new MessageButton()
-      .setLabel("Vote me")
+      .setURL("https://discord.gg/xDAhAPSvMX"),
+      //new MessageButton()
+      //.setLabel("Vote me")
       
-      .setStyle("LINK") 
-.setEmoji("911545788608430111")
-      .setURL("https://top.gg/bot/903922960354672671/vote")
+      //.setStyle("LINK") 
+//.setEmoji("911545788608430111")
+      //.setURL("")
     );
     const uptime = moment
       .duration(client.uptime)
@@ -51,27 +51,27 @@ module.exports = {
       .setColor('GREEN')
       .addField(
         "**General : **",
-        `**❯ Client :** ${client.user.tag} (${client.user.id}),
-        **❯ Commands :** ${client.commands.size},
-        **❯ Servers :** ${client.guilds.cache.size.toLocaleString()}, 
-        **❯ Users :** ${client.guilds.cache
+        `**❯ Client :** \`${client.user.tag} (${client.user.id})\`,
+        **❯ Commands :** \`${client.commands.size}\`,
+        **❯ Servers :** \`${client.guilds.cache.size.toLocaleString()}\`, 
+        **❯ Users :** \`${client.guilds.cache
           .reduce((a, b) => a + b.memberCount, 0)
-          .toLocaleString()},
-        **❯ Channels :** ${client.channels.cache.size.toLocaleString()},
-        **❯ Creation Date :** ${utc(client.user.createdTimestamp).format(
+          .toLocaleString()}\`,
+        **❯ Channels :** \`${client.channels.cache.size.toLocaleString()}\`,
+        **❯ Creation Date :** \`${utc(client.user.createdTimestamp).format(
           "Do MMMM YYYY HH:mm:ss"
-        )}
-        **❯ Node.js :** ${process.version}
-        **❯ Discord.js :** v${djsversion}
+        )}\`
+        **❯ Node.js :** \`${process.version}\`
+        **❯ Discord.js :** \`v${djsversion}\`
         **❯ Up Since :**  <t:${upvalue}:T>
         \u200b`
       )
       .setColor('GREEN')
       .addField(
         "**❯ CPU :**",
-        `**Cores : **${os.cpus().length}
-        **Model :** ${core.model}
-        ** Speed :** ${core.speed}MHz`
+        `**Cores : **\`${os.cpus().length}\`
+        **Model :** \`${core.model}\`
+        ** Speed :** \`${core.speed}MHz\``
       )    
        
       .setTimestamp();
