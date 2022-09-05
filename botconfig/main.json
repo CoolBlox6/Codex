@@ -3,7 +3,7 @@
 
   "Note_Token:":"Put Your Bot Token Above (If your using replit then make a new secret 'clienttoken' and put ur bot token there... and then keep this string empty)",
 
-  "clientname": "DoggyBlox | Manager",
+  "clientname": "CoolBlox | Manager",
 
   "clientid": "948239151394848798",
 
@@ -17,7 +17,7 @@
 "mongooseConnectionString": "mongodb+srv://Data:public@cluster0.zu3rj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "colorthemecode":"#FF0000",
   
-  "randomMessages_Cooldown": ["Slow It Down Bro...", "Spam Isn't Cool Bro....", "Get Premium dude...", "Never Gonna Let You Down","Subscribe To DoggyBlox lol", "Hold ur horses...."],
+  "randomMessages_Cooldown": ["Slow It Down Bro...", "Spam Isn't Cool Bro....", "Get Premium dude...", "Never Gonna Let You Down","Subscribe To CoolBlox lol", "Hold ur horses...."],
 
 
   "NOTE:" : "",

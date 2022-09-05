@@ -82,7 +82,7 @@ const row2 = new MessageActionRow()
       
       .setStyle("LINK") 
 .setEmoji("")
-      .setURL("https://discord.gg/xDAhAPSvMX"),
+      .setURL("https://dsc.gg/teamcrypts"),
       //new MessageButton()
       //.setLabel("Vote me")
       
